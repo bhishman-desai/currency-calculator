@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.remove-arrows {
+    -moz-appearance: textfield;
+}
+
+.remove-arrows::-webkit-inner-spin-button,
+.remove-arrows::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
